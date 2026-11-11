@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VERTIGO – Beyond Reality | Flying illusion act</title>
+<meta name="description" content="VERTIGO – Beyond Reality: a minimalist flying illusion and vanishing act for events, festivals, shows and cruise ships. Two performers, one impossible world.">
+<meta property="og:title" content="VERTIGO – Beyond Reality">
+<meta property="og:description" content="Two performers. One impossible world. A flying illusion that travels in checked luggage.">
+<meta property="og:image" content="images/og.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#04060f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2304060f'/%3E%3Cpath d='M10 14l22 38 22-38' fill='none' stroke='%23fff' stroke-width='5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#04060f;--night:#070d2b;--royal:#0f2390;--electric:#3d6bff;--ice:#cfdcff;--mist:#9fb4ee;--white:#fff;
+--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:'Jost','Helvetica Neue',Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+html[data-lang="en"] [lang="es"],html[data-lang="es"] [lang="en"]{display:none!important}
+body{background:var(--ink);color:var(--ice);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--electric);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--serif);font-weight:500;color:var(--white);line-height:1.1}
+h2{font-size:clamp(2rem,4.6vw,3.2rem);margin-bottom:22px}
+h3{font-size:1.9rem}
+p+p{margin-top:1em}
+section{padding:84px 0}
+
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(4,6,15,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid #16226b}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+.logo{font-family:var(--serif);font-size:1.5rem;letter-spacing:.32em;color:var(--white);text-decoration:none;font-weight:600}
+.links{display:flex;gap:26px;align-items:center;font-size:.95rem}
+.links a{text-decoration:none;color:var(--mist)}
+.links a:hover{color:var(--white)}
+.lang{display:flex;border:1px solid #2a3f8f;border-radius:99px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--mist);font:inherit;font-size:.82rem;padding:4px 12px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--electric);color:var(--white)}
+@media(max-width:700px){.links a{display:none}}
+
+/* hero */
+.hero img{width:100%;height:auto}
+.hero-bar{background:linear-gradient(180deg,#04060f,#070d2b);border-bottom:1px solid #16226b;padding:28px 0;text-align:center}
+.hero-bar p{font-family:var(--serif);font-style:italic;font-size:clamp(1.25rem,2.6vw,1.7rem);color:var(--white);margin-bottom:18px}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:12px 24px;border-radius:99px;font-weight:500;text-decoration:none;border:1px solid var(--electric);transition:background .2s,transform .2s}
+.btn svg{width:20px;height:20px;flex:none}
+.btn.solid{background:var(--electric);color:var(--white)}
+.btn.solid:hover{background:#5a82ff}
+.btn.line{color:var(--white)}
+.btn.line:hover{background:rgba(61,107,255,.2)}
+
+/* act */
+.act{background:radial-gradient(ellipse at 80% 0%,#0b1a66 0%,transparent 60%)}
+.act-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:start}
+.lead{font-family:var(--serif);font-style:italic;font-size:1.55rem;line-height:1.35;color:var(--white);margin-bottom:1.1em}
+.frame{border:1px solid #2a3f8f;box-shadow:0 0 60px rgba(61,107,255,.25)}
+.wide{margin-top:48px}
+.wide img{width:100%;aspect-ratio:16/8;object-fit:cover;object-position:50% 42%}
+@media(max-width:820px){.act-grid{grid-template-columns:1fr}.wide img{aspect-ratio:4/3}}
+
+/* video */
+.video{background:var(--night);border-block:1px solid #16226b}
+.video .wrap{max-width:900px;text-align:center}
+.ratio{position:relative;aspect-ratio:16/9;margin-top:28px;background:#000}
+.ratio iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* artists */
+.artist{display:grid;grid-template-columns:300px 1fr;gap:48px;align-items:start}
+.artist+.artist{margin-top:72px}
+.artist.rev{grid-template-columns:1fr 300px}
+.artist.rev .photo{order:2}
+.photo img{width:100%;aspect-ratio:2/3;object-fit:cover}
+.role{font-family:var(--serif);font-style:italic;font-size:1.3rem;color:var(--mist);margin:6px 0 22px}
+.cred{padding:14px 0;border-top:1px solid #1b2a7a}
+.cred b{display:block;color:var(--white);font-weight:500;margin-bottom:2px}
+.cred span{font-size:.97rem}
+@media(max-width:820px){.artist,.artist.rev{grid-template-columns:1fr;gap:26px}.artist.rev .photo{order:0}.photo{max-width:320px}}
+
+/* highlights */
+.hl{background:linear-gradient(135deg,#0a1a6b,#142fb8 55%,#0a1a6b);padding:56px 0}
+.hl-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+.hl-item{text-align:center}
+.hl-item svg{width:46px;height:46px;stroke:var(--white);fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;margin:0 auto 14px}
+.hl-item p{font-family:var(--serif);font-size:1.3rem;line-height:1.2;color:var(--white);margin:0}
+@media(max-width:820px){.hl-grid{grid-template-columns:repeat(2,1fr);gap:34px 18px}}
+
+/* contact */
+.contact{text-align:center;background:radial-gradient(ellipse at 50% 100%,#0b1a66 0%,transparent 65%)}
+.contact h2{margin-bottom:12px}
+.contact .sub{margin-bottom:30px}
+.phones{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:40px}
+.phone{min-width:250px;padding:18px 24px;border:1px solid #2a3f8f;text-decoration:none;transition:background .2s}
+.phone:hover{background:rgba(61,107,255,.15)}
+.phone small{display:block;color:var(--mist);font-size:.88rem}
+.phone strong{display:block;color:var(--white);font-weight:500;font-size:1.25rem;letter-spacing:.03em}
+footer{padding:28px 0;text-align:center;font-size:.85rem;color:#6c80c9;border-top:1px solid #16226b}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<nav>
+ <div class="wrap">
+  <a class="logo" href="#top">VERTIGO</a>
+  <div class="links">
+   <a href="#act"><span lang="en">The act</span><span lang="es">El acto</span></a>
+   <a href="#video">Video</a>
+   <a href="#artists"><span lang="en">Artists</span><span lang="es">Artistas</span></a>
+   <a href="#contact"><span lang="en">Contact</span><span lang="es">Contacto</span></a>
+   <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-set="en" aria-pressed="true">EN</button>
+    <button type="button" data-set="es" aria-pressed="false">ES</button>
+   </div>
+  </div>
+ </div>
+</nav>
+
+<header class="hero" id="top">
+ <img src="images/banner.jpg" alt="VERTIGO – Beyond Reality. Two performers, one impossible world." width="2400" height="1008">
+ <div class="hero-bar">
+  <div class="wrap">
+   <p lang="en">A minimalist flying illusion for events, festivals, shows and cruise ships.</p>
+   <p lang="es">Una ilusión de flying minimalista para eventos, festivales, shows y cruceros.</p>
+   <div class="btns">
+    <a class="btn solid" href="#video"><span lang="en">Watch the act</span><span lang="es">Ver el acto</span></a>
+    <a class="btn line" href="#contact"><span lang="en">Book the show</span><span lang="es">Contratar el show</span></a>
+   </div>
+  </div>
+ </div>
+</header>
+
+<section class="act" id="act">
+ <div class="wrap">
+  <div class="act-grid">
+   <div>
+    <h2 lang="en">Two people meet.<br>The energy rises.</h2>
+    <h2 lang="es">Dos personas se encuentran.<br>La energía se eleva.</h2>
+
+    <div lang="en">
+     <p class="lead">Before everyone’s eyes, the encounter becomes a flight and a vanishing.</p>
+     <p>VERTIGO is a unique, high-impact variety show that brings together the art of illusion and the spectacular experience of live flying. After years of research and refinement, it arrives as a new visual magic act.</p>
+     <p>The idea is simple: two people meet, their energies intensify, and in front of the whole audience that meeting turns into a flying illusion and a disappearance. No large boxes, no heavy set. Everything is minimalist and visual.</p>
+     <p>It is made for events, festivals and shows that need a spectacular, visual act. What truly sets it apart is its extraordinary flying illusion — a breathtaking live performance that takes magic to a whole new level.</p>
+     <p>VERTIGO has been carefully designed with international touring and cruise ship operations in mind. Its compact format is exceptionally travel-friendly: the entire production fits in standard checked airline luggage, offering maximum visual impact with minimal logistical requirements.</p>
+    </div>
+    <div lang="es">
+     <p class="lead">Delante de todo el mundo, el encuentro se transforma en un vuelo y una desaparición.</p>
+     <p>VERTIGO es un show de variedades único y de gran impacto que une el arte de la ilusión con la espectacular experiencia del flying en directo. Tras años de investigación y retoques, llega como un nuevo acto visual de magia.</p>
+     <p>La idea es sencilla: dos personas se encuentran, sus energías se intensifican y, delante de todo el público, ese encuentro se convierte en un flying y una desaparición. Sin grandes cajas ni grandes decorados. Todo es minimalista y visual.</p>
+     <p>Está pensado para eventos, festivales y shows que necesitan un acto espectacular y visual. Lo que realmente lo distingue es su extraordinaria ilusión de flying: una actuación en directo que deja sin aliento y lleva la magia a otro nivel.</p>
+     <p>VERTIGO ha sido diseñado cuidadosamente para giras internacionales y operaciones en cruceros. Su formato compacto es perfecto para viajar: toda la producción cabe en maletas facturadas estándar, con el máximo impacto visual y una logística mínima.</p>
+    </div>
+   </div>
+   <div class="frame"><img src="images/escena.jpg" alt="Viviana Camino levitating above Mago Vituco on stage" width="1000" height="1500" loading="lazy"></div>
+  </div>
+  <div class="wide frame"><img src="images/levitacion.jpg" alt="Viviana Camino suspended in mid-air on a dark stage" width="1672" height="941" loading="lazy"></div>
+ </div>
+</section>
+
+<section class="video" id="video">
+ <div class="wrap">
+  <h2 lang="en">See it live</h2>
+  <h2 lang="es">Míralo en directo</h2>
+  <div class="ratio frame">
+   <iframe src="https://www.youtube-nocookie.com/embed/C6VbvKJAh60" title="VERTIGO – Beyond Reality" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+ </div>
+</section>
+
+<section id="artists">
+ <div class="wrap">
+  <h2 lang="en">The artists</h2>
+  <h2 lang="es">Los artistas</h2>
+
+  <article class="artist">
+   <div class="photo frame"><img src="images/viviana.jpg" alt="Viviana Camino" width="600" height="900" loading="lazy"></div>
+   <div>
+    <h3>Viviana Camino</h3>
+    <p class="role" lang="en">Actress, singer and dancer</p>
+    <p class="role" lang="es">Actriz, cantante y bailarina</p>
+    <div lang="en">
+     <div class="cred"><b>Musical theatre</b><span>Chicago, Follies, The Hole and Hoy No Me Puedo Levantar, in leading theatres across Madrid and Barcelona and at national festivals.</span></div>
+     <div class="cred"><b>Cabaret &amp; music hall</b><span>International experience in prestigious productions such as Crazy Horse and La Nouvelle Ève in Paris, France.</span></div>
+     <div class="cred"><b>Film &amp; television</b><span>Crazy Horse with Dita Von Teese, Frederick Wiseman’s documentary Crazy Horse, the film Bambou, and television programmes.</span></div>
+     <div class="cred"><b>Other experience</b><span>Casting assistant and coordinator for Disneyland Resort Paris.</span></div>
+    </div>
+    <div lang="es">
+     <div class="cred"><b>Teatro musical</b><span>Chicago, Follies, The Hole y Hoy No Me Puedo Levantar, en teatros de referencia de Madrid y Barcelona y en festivales nacionales.</span></div>
+     <div class="cred"><b>Cabaret y music hall</b><span>Experiencia internacional en producciones de prestigio como Crazy Horse y La Nouvelle Ève, en París, Francia.</span></div>
+     <div class="cred"><b>Cine y televisión</b><span>Crazy Horse con Dita Von Teese, el documental Crazy Horse de Frederick Wiseman, la película Bambou y programas de televisión.</span></div>
+     <div class="cred"><b>Otras experiencias</b><span>Asistente y coordinadora de casting para Disneyland Resort Paris.</span></div>
+    </div>
+   </div>
+  </article>
+
+  <article class="artist rev">
+   <div class="photo frame"><img src="images/vituco.jpg" alt="Mago Vituco" width="1100" height="1650" loading="lazy"></div>
+   <div>
+    <h3>Mago Vituco</h3>
+    <p class="role" lang="en">Magician and show producer</p>
+    <p class="role" lang="es">Mago y productor de espectáculos</p>
+    <div lang="en">
+     <div class="cred"><b>Magic &amp; international performances</b><span>Professional magician with extensive international experience aboard luxury cruise ships and at exclusive resorts, including MSC Cruises, Costa Cruises, Saga Cruises, Astro Ocean Cruises and Kuramathi Resort (Maldives).</span></div>
+     <div class="cred"><b>Live shows &amp; entertainment</b><span>Hand-shadow artist in Illusion on Ice (Mexico), and magician and show producer for Baleària cruise productions.</span></div>
+     <div class="cred"><b>Festivals &amp; production</b><span>Performer and producer at international magic festivals, including the International Magic Festival Compostela Máxica.</span></div>
+    </div>
+    <div lang="es">
+     <div class="cred"><b>Magia y actuaciones internacionales</b><span>Mago profesional con amplia experiencia internacional a bordo de cruceros de lujo y en resorts exclusivos, como MSC Cruises, Costa Cruises, Saga Cruises, Astro Ocean Cruises y Kuramathi Resort (Maldivas).</span></div>
+     <div class="cred"><b>Shows y entretenimiento</b><span>Artista de sombras chinescas en Illusion on Ice (México), y mago y productor de espectáculos para las producciones de crucero de Baleària.</span></div>
+     <div class="cred"><b>Festivales y producción</b><span>Artista y productor en festivales internacionales de magia, entre ellos el Festival Internacional de Magia Compostela Máxica.</span></div>
+    </div>
+   </div>
+  </article>
+ </div>
+</section>
+
+<aside class="hl" aria-label="Highlights">
+ <div class="wrap hl-grid">
+  <div class="hl-item">
+   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+   <p lang="en">A visual, high-impact act</p><p lang="es">Un número visual e impactante</p>
+  </div>
+  <div class="hl-item">
+   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="8" cy="6" r="2" fill="#0f2390"/><circle cx="16" cy="12" r="2" fill="#0f2390"/><circle cx="10" cy="18" r="2" fill="#0f2390"/></svg>
+   <p lang="en">Very low technical requirements</p><p lang="es">Requerimientos técnicos muy bajos</p>
+  </div>
+  <div class="hl-item">
+   <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18M11 13v2h2v-2"/></svg>
+   <p lang="en">Everything travels in checked luggage</p><p lang="es">Todo viaja en maleta facturada</p>
+  </div>
+  <div class="hl-item">
+   <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+   <p lang="en">Surprise and success guaranteed</p><p lang="es">Sorpresa y éxito garantizados</p>
+  </div>
+ </div>
+</aside>
+
+<section class="contact" id="contact">
+ <div class="wrap">
+  <h2 lang="en">Bring VERTIGO to your stage</h2>
+  <h2 lang="es">Lleva VERTIGO a tu escenario</h2>
+  <p class="sub" lang="en">An act that adapts to almost any stage, with minimal technical requirements.</p>
+  <p class="sub" lang="es">Un número que se adapta a casi cualquier escenario, con requerimientos técnicos mínimos.</p>
+  <div class="btns">
+   <a class="btn solid" href="mailto:infovertigotheact@gmail.com">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+    <span lang="en">Send an email</span><span lang="es">Enviar un email</span>
+   </a>
+   <a class="btn line" href="https://www.instagram.com/vertigotheact/" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+    @vertigotheact
+   </a>
+  </div>
+  <div class="phones">
+   <a class="phone" href="tel:+34619823559"><small>Mago Vituco</small><strong>+34 619 823 559</strong></a>
+   <a class="phone" href="tel:+34608096053"><small>Viviana Camino</small><strong>+34 608 096 053</strong></a>
+  </div>
+  <p style="margin-top:22px;font-size:.95rem"><a href="mailto:infovertigotheact@gmail.com">infovertigotheact@gmail.com</a></p>
+ </div>
+</section>
+
+<footer>© VERTIGO – Beyond Reality</footer>
+
+<script>
+(function(){
+  var root=document.documentElement, btns=document.querySelectorAll('.lang button');
+  var titles={en:'VERTIGO – Beyond Reality | Flying illusion act',es:'VERTIGO – Beyond Reality | Espectáculo de ilusionismo y flying'};
+  function setLang(l){
+    root.setAttribute('data-lang',l); root.setAttribute('lang',l); document.title=titles[l];
+    btns.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.set===l));});
+    try{localStorage.setItem('vertigo-lang',l);}catch(e){}
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);});});
+  var saved=null; try{saved=localStorage.getItem('vertigo-lang');}catch(e){}
+  if(saved==='es') setLang('es');
+})();
+</script>
+</body>
+</html>
